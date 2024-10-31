@@ -1,4 +1,4 @@
-﻿#script ad client
+﻿#script ad server & client
 
 $DC1 = "poulicroc"
 $DC2 = "lab"
