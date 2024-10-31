@@ -1,6 +1,6 @@
-# Pi-Pokemon 🎮✨
+# AD-Manager 🎮✨
 
-**Pi-Pokemon** is a unique Python project that harnesses the power of the number π (pi) to play Pokémon games using the **[PyBoy](https://github.com/Baekalfen/PyBoy)** emulator! Dive into a one-of-a-kind emulation experience where every part of the gameplay is influenced by pi, turning your Pokémon journey into an unpredictable mathematical adventure.
+**AD-Manager** is
 
 ## 📋 Table of Contents
 - [Description](#-description)
@@ -15,7 +15,7 @@
 
 ## 📝 Description
 
-**Pi-Pokemon** is an experimental project that fuses math and retro gaming. Using pi’s decimal expansion, the project determines actions, moves, and other aspects of the gameplay, making every session as unpredictable as the digits of pi itself! With Python, PyBoy, and a sprinkle of creativity, **Pi-Pokemon** offers a truly unique Pokémon experience where numbers shape your adventure.
+**AD-Manager** is 
 
 ## ✨ Features
 
@@ -27,7 +27,7 @@
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/pi-pokemon.git
+   git clone https://github.com/med-reb/AD-Manager
 
 2. Install dependencies using pip:
    ```bash
@@ -37,7 +37,6 @@ Ensure you have a legally dumped ROM of Pokémon Gold (or another Game Boy Poké
 ## ▶️ Usage
 Run the main script. For example:
    ```bash
-python pi_pokemon.py
 ```
 The script will begin using pi’s digits to control the character and interact with the Pokémon world in unpredictable ways.
 
@@ -47,9 +46,7 @@ Here’s how Pi-Pokemon leverages pi’s digits to influence gameplay:
 **Character Movement**: Pi’s digits are used to determine movement directions (e.g., 1 = b, 4 = right).
 
 ## 📦 Dependencies
-- Python 3.6+
-- PyBoy
-- MpMath
+- XXX
 
 ## 👥 Author
 - **Med-reb** - Creator and developer of the project.
