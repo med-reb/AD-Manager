@@ -1,55 +1,51 @@
-# AD-Manager 🎮✨
+# AD-Manager 🚀
 
-**AD-Manager** is
+**AD-Manager** is a PowerShell-based application for managing Active Directory tasks, designed to adapt automatically to both Windows client and server environments. Please note that **this is an older project** and may contain inefficient or outdated code, but it remains functional for common AD tasks.
 
 ## 📋 Table of Contents
 - [Description](#-description)
 - [Features](#-features)
-- [Installation](#-installation)
 - [Usage](#-usage)
-- [Examples of Use](#-examples-of-use)
 - [Dependencies](#-dependencies)
+- [Disclaimer](#-disclaimer)
 - [Authors](#-authors)
 
 ---
 
 ## 📝 Description
 
-**AD-Manager** is 
+**AD-Manager** is a PowerShell script aimed at simplifying Active Directory tasks on Windows systems. This application can detect whether it's running on a Windows client or server and adapts accordingly, enabling various AD management actions from a single interface. 
+
+Despite its rough coding, **AD-Manager** provides essential AD functions, making it a straightforward choice for managing domain tasks directly from one app.
 
 ## ✨ Features
 
-- **Automated Actions**: Uses pi's decimals to determine actions and moves in the game.
-- **Unique Gameplay**: Every action is guided by the infinite sequence of pi, offering endless variations.
-- **Pokémon Compatibility**: Compatible with Game Boy versions of Pokémon games (tested with Pokémon Red/Blue/Yellow).
-
-## 🚀 Installation
-
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/med-reb/AD-Manager
-
-2. Install dependencies using pip:
-   ```bash
-   pip install -r requirements.txt
-Ensure you have a legally dumped ROM of Pokémon Gold (or another Game Boy Pokémon title) and place it in the project directory. Note: This project does not condone or support the use of ROMs obtained illegally. Please dump your own copy from a legally owned cartridge.
+- **Rename Computer**: Change the computer name in the AD environment.
+- **User Management**: Create new user accounts.
+- **Group Management**: Create and manage user groups.
+- **Organizational Units (OU)**: Create OUs to organize AD resources.
+- **IP Configuration**: Update IP address settings directly from the app.
+- **Domain Join**: Join the computer to an AD domain with ease.
 
 ## ▶️ Usage
-Run the main script. For example:
-   ```bash
-```
-The script will begin using pi’s digits to control the character and interact with the Pokémon world in unpredictable ways.
 
-## 📖 Examples of Use
-Here’s how Pi-Pokemon leverages pi’s digits to influence gameplay:
-
-**Character Movement**: Pi’s digits are used to determine movement directions (e.g., 1 = b, 4 = right).
+1. Launch the PowerShell script, which will open the AD-Manager application.
+2. Choose the desired AD operation from the interface (rename computer, create user, etc.).
+3. Follow the on-screen prompts to complete the selected action.
 
 ## 📦 Dependencies
-- XXX
 
-## 👥 Author
-- **Med-reb** - Creator and developer of the project.
+- **Windows PowerShell** (Version 5.1 or higher recommended)
+- **Active Directory Module for Windows PowerShell** (only for some AD-related features)
+
+## ⚠️ Disclaimer
+
+This is an older project, and some parts of the code may be inefficient or outdated. While the app is fully functional, it’s not a final polished product and might lack some optimization or modern best practices.
+
+## 👥 Authors
+
+- **med-reb** - Initial development and scripting.
 
 ## 🎉 Acknowledgments
-- A big thank you to the open-source community for PyBoy, and to mathematicians everywhere for pi! This project couldn’t exist without your contributions.
+
+A thank you to the PowerShell community for resources and code samples that made this project possible.
