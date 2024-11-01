@@ -624,9 +624,6 @@ $Window.ShowDialog() | Out-Null
 }
 
 
-ad
-<#
-
 $windowsversion = Get-ComputerInfo | select WindowsProductName
 $productversion = $windowsversion.WindowsProductName.split(" ")
 
@@ -637,5 +634,3 @@ else{
 client
 
 }
-
-#>
